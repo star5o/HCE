@@ -1,0 +1,80 @@
+{"id": "case_cinema_01", "question": "Who directed the movie Star Wars?", "gold_aliases": ["George Lucas", "George Walton Lucas Jr."], "category": "Entertainment & Cinema"}
+{"id": "case_history_02", "question": "In which country was the Battle of Waterloo fought?", "gold_aliases": ["Belgium", "Kingdom of the Netherlands"], "category": "World History"}
+{"id": "case_literature_03", "question": "Who wrote the novel The Spy Who Came in from the Cold?", "gold_aliases": ["John le Carré", "David John Moore Cornwell", "John le Carre"], "category": "Literature"}
+{"id": "case_academic_04", "question": "What year was the University of San Diego founded?", "gold_aliases": ["1949"], "category": "Academic Institutions"}
+{"id": "case_science_05", "question": "Who is credited with discovering the element Helium on Earth?", "gold_aliases": ["William Ramsay", "Sir William Ramsay"], "category": "Scientific Discovery"}
+{"id": "case_nobel_06", "question": "Who won the Nobel Prize in Literature in 1968?", "gold_aliases": ["Yasunari Kawabata"], "category": "Nobel Laureates"}
+{"id": "case_geography_07", "question": "What is the capital of Saskatchewan?", "gold_aliases": ["Regina"], "category": "Geography & Administrative Capitals"}
+{"id": "case_sport_08", "question": "What sport did Juan Manuel Fangio compete in?", "gold_aliases": ["Formula One", "Auto racing", "F1", "Motor racing"], "category": "Motorsport History"}
+{"id": "popqa::1030164", "question": "In what city was Camillo Benso di Cavour born?", "gold_aliases": ["Turin", "Torino", "Turin, Italy"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1049793", "question": "Who was the director of Halloween?", "gold_aliases": ["Paul Feig", "Paul Samuel Feig"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1146794", "question": "Who is the author of Night?", "gold_aliases": ["William Blake", "W. Blake", "Uil'iam Bleik", "Blake"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1164812", "question": "Who was the producer of Kaaka Muttai?", "gold_aliases": ["Dhanush", "Venkatesh Prabhu Kasthuri Raja", "Dhanush Kastooriraja", "Dhanush K Raja"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1200458", "question": "Who is the author of Saturday?", "gold_aliases": ["Ian McEwan", "Ian Russell McEwan"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::133487", "question": "Who was the screenwriter for Oedipus Rex?", "gold_aliases": ["Pier Paolo Pasolini"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1377228", "question": "What sport does Siavash Yazdani play?", "gold_aliases": ["association football", "football", "soccer"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1390922", "question": "Who is the father of Charites?", "gold_aliases": ["Zeus"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1460182", "question": "Who was the screenwriter for Chicago?", "gold_aliases": ["Bill Condon", "William \"Bill\" Condon"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1507294", "question": "What color is Charlton Athletic F.C.?", "gold_aliases": ["red", "red color"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1585746", "question": "Who is the father of Horae?", "gold_aliases": ["Zeus"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1624448", "question": "Who was the producer of Tarzan, the Ape Man?", "gold_aliases": ["Bo Derek"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1660687", "question": "In what country is Hotel Indonesia?", "gold_aliases": ["Indonesia", "Republic of Indonesia", "id", "ID", "INA", "IDN"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1663049", "question": "Who was the composer of Come Together?", "gold_aliases": ["John Lennon", "John Winston Ono Lennon", "John Winston Lennon", "Lennon John", "John Ono Lennon", "Paul McCartney", "Sir Paul McCartney", "Macca", "James Paul McCartney"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1683421", "question": "Who is the author of Enchiridion of Epictetus?", "gold_aliases": ["Arrian", "Arrian of Nicomedia", "Lucius Flavius Arrianus"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1812127", "question": "Who is the author of Rich Dad Poor Dad?", "gold_aliases": ["Robert Kiyosaki", "Robert Toru Kiyosaki", "Robert T. Kiyosaki"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::182279", "question": "Who is the author of Lost?", "gold_aliases": ["Gregory Maguire"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1928219", "question": "What genre is Portia White?", "gold_aliases": ["opera", "lyric drama", "European opera", "Western classical opera"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::1946956", "question": "Who was the composer of A Little Night Music?", "gold_aliases": ["Stephen Sondheim", "Stephen Joshua Sondheim"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2016203", "question": "What is the religion of University of San Diego?", "gold_aliases": ["Catholic Church", "Roman Catholic Church", "Church", "Roman Apostolic Catholic Church"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2024285", "question": "In what country is Blangy-sous-Poix?", "gold_aliases": ["France", "fr", "FR", "République française", "La France", "Republic of France", "French Republic", "FRA", "the Hexagon"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2063489", "question": "What genre is Amici miei – Atto III?", "gold_aliases": ["comedy film", "comedy movie"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2064228", "question": "What is Kaberamaido the capital of?", "gold_aliases": ["Kaberamaido District"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2170272", "question": "In what country is Anjoma?", "gold_aliases": ["Madagascar", "mg", "🇲🇬", "Republic of Madagascar", "MAD"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::227087", "question": "Who was the producer of Taken?", "gold_aliases": ["Leslie Bohem", "Leslie Karoly Bohem", "Steven Spielberg", "Steven Allan Spielberg", "Spielberg"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2299716", "question": "What genre is Fablehaven?", "gold_aliases": ["fantasy literature"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2431203", "question": "What genre is Kevin Fowler?", "gold_aliases": ["country music", "country and western", "country & western", "country", "Nashville sound"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2456508", "question": "What is the capital of Northern Territory?", "gold_aliases": ["Darwin"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2586491", "question": "What sport does ProKennex play?", "gold_aliases": ["tennis", "lawn tennis", "lawntennis"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2674885", "question": "Who was the director of The Raid?", "gold_aliases": ["Ching Siu-tung"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2700440", "question": "Who was the director of Victory?", "gold_aliases": ["Mark Peploe"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::283817", "question": "Who was the producer of The Jolson Story?", "gold_aliases": ["Sidney Buchman", "Sidney R. Buchman", "Sidney Robert Buchman"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2929949", "question": "Who is the author of Sweat?", "gold_aliases": ["Jorge Amado", "Jorge Leal Amado de Faria"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2962543", "question": "In what city was Runa Akiyama born?", "gold_aliases": ["Tokyo", "Tōkyō", "Tôkyô", "Tokyo-to", "Tokyo Metropolitan prefecture", "Tōkyō-to", "Tôkyô-to", "Tokyo Metropolis", "Tokio", "Tokyo Prefecture"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::2998350", "question": "What is the capital of Peru?", "gold_aliases": ["Lima", "City of the Kings"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::3004068", "question": "Who was the director of The Guard?", "gold_aliases": ["Aleksandr Rogozhkin", "Alexander Rogozhkin", "Aleksandr Vladimirovich Rogozhkin", "Alexander Vladimirovich Rogozhkin"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::304828", "question": "Who was the screenwriter for Diane?", "gold_aliases": ["Christopher Isherwood", "Christopher William Bradshaw Isherwood"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::3087678", "question": "Who was the producer of Glass?", "gold_aliases": ["Bert Haanstra", "Albert Haanstra"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::3151249", "question": "What is Nancy Landon Kassebaum's occupation?", "gold_aliases": ["politician", "political leader", "political figure", "polit.", "pol"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::3362680", "question": "What is Batken the capital of?", "gold_aliases": ["Batken Region"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::3411028", "question": "Who was the director of An Education?", "gold_aliases": ["Lone Scherfig"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::3508754", "question": "In what country is Brown University?", "gold_aliases": ["United States of America", "the United States of America", "America", "U.S.A.", "USA", "U.S.", "US", "the US", "the USA", "US of A", "the United States", "U. S. A.", "U. S.", "the States", "the U.S.", "'Merica", "U.S", "United States", "'Murica"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::3684946", "question": "Who was the producer of The Horror of Frankenstein?", "gold_aliases": ["Jimmy Sangster", "James Henry Kinmel Sangster"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::3806311", "question": "What genre is Crystal Shawanda?", "gold_aliases": ["country music", "country and western", "country & western", "country", "Nashville sound"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::3998967", "question": "What is Edward Norton's occupation?", "gold_aliases": ["politician", "political leader", "political figure", "polit.", "pol"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::4182134", "question": "In what country is Gaffarlı?", "gold_aliases": ["Turkey", "Republic of Turkey", "🇹🇷", "TUR", "TR"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::420141", "question": "What genre is Phoenix?", "gold_aliases": ["manga", "Japanese comics"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::4321617", "question": "Who is the author of Annals?", "gold_aliases": ["Tacitus", "Publius Cornelius Tacitus", "Gaius Cornelius Tacitus", "P. Cornelius Tacitus", "C. Cornelius Tacitus", "Cornelius Tacitus"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::4329546", "question": "Who was the director of Happy End?", "gold_aliases": ["Jeong Ji-u", "Jung Ji-woo", "Chung Ji-woo"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::4350340", "question": "In what country is Hatnagoda?", "gold_aliases": ["Sri Lanka", "Democratic Socialist Republic of Sri Lanka", "Ceylon", "Taprobane", "Serendib", "Ceylan", "🇱🇰", "lk", "Lanka, Sri", "sri", "lke", "ce", "Srilanka", "SRI", "سرنديب", "سيلان"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::4382350", "question": "Who was the producer of The Trial?", "gold_aliases": ["Bob Ezrin", "Robert Alan Ezrin", "00042476488 IPI", "00042476586 IPI"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::446730", "question": "Who was the director of Endgame?", "gold_aliases": ["Pete Travis"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::4490640", "question": "Who was the director of Homecoming?", "gold_aliases": ["Joe May"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::4549798", "question": "What genre is The Band?", "gold_aliases": ["rock music", "rock and roll", "rock", "Rock", "folk rock", "Folk Rock", "roots rock", "Roots Rock", "blues rock", "Blues Rock", "alternative country", "alt-country", "insurgent country", "Americana", "Alt-Country", "country rock", "Country Rock", "country music", "country and western", "country & western", "country", "Nashville sound"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::4637050", "question": "What sport does Shuto Suzuki play?", "gold_aliases": ["association football", "football", "soccer"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::470300", "question": "What genre is Bullet to the Head?", "gold_aliases": ["action film", "action movie", "film action", "movie action", "action"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::4864774", "question": "Who is the author of The Secret?", "gold_aliases": ["Rhonda Byrne"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::4974600", "question": "Who is the author of Anything Goes?", "gold_aliases": ["Howard Lindsay", "Herman Nelke", "Russel Crouse", "P. G. Wodehouse", "Pelham Grenville Wodehouse", "Sir Pelham Grenville Wodehouse", "P.G. Wodehouse", "Guy Bolton", "H. B. Trevelyan", "Guy Reginald Bolton"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::508352", "question": "In what country is Antique?", "gold_aliases": ["Philippines", "Republic of the Philippines", "PH", "ph", "the Philippines", "Philippine Islands", "PHL", "RP", "🇵🇭", "PHI", "Pinas"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::510197", "question": "In what country is Stanley?", "gold_aliases": ["United States of America", "the United States of America", "America", "U.S.A.", "USA", "U.S.", "US", "the US", "the USA", "US of A", "the United States", "U. S. A.", "U. S.", "the States", "the U.S.", "'Merica", "U.S", "United States", "'Murica"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::5223937", "question": "Who was the producer of Mr. Peabody & Sherman?", "gold_aliases": ["Rob Minkoff", "Robert Minkoff", "Robert R. Minkoff"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::5241281", "question": "Who is the author of Politics?", "gold_aliases": ["Aristotle", "Aristoteles", "Aristotelis"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::5246342", "question": "In what country is Juliaca?", "gold_aliases": ["Peru", "pe", "Republic of Peru", "República del Perú", "🇵🇪", "Republica del Peru"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::535313", "question": "Who was the director of The Signal?", "gold_aliases": ["David Bruckner"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::5472576", "question": "Who is the author of Politics?", "gold_aliases": ["William Butler Yeats", "W. B. Yeats", "William Yeats", "W.B. Yeats"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::5623957", "question": "What sport does Roland Repiský play?", "gold_aliases": ["association football", "football", "soccer"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::5687204", "question": "What genre is Heaven 17?", "gold_aliases": ["synth-pop", "synthesizer pop", "techno-pop", "synthpop"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::570749", "question": "What is the capital of Georgia?", "gold_aliases": ["Atlanta", "Terminus", "Atlanta, Georgia", "The Big Peach", "Hotlanta", "The ATL", "The A", "Atlanta, GA"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::57303", "question": "Who was the composer of So What?", "gold_aliases": ["Max Martin", "Karl Martin Sandberg", "Martin White"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::5839103", "question": "What genre is Stray?", "gold_aliases": ["blues rock", "Blues Rock", "psychedelic rock", "acid rock", "psy rock", "psyrock", "psychedelia", "progressive rock", "prog-rock", "prog", "classical rock", "symphonic rock", "art rock", "progressive pop", "prog rock", "Progressive Rock", "hard rock"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::5874410", "question": "Who was the director of Two Women?", "gold_aliases": ["Tahmineh Milani"], "category": "Open-Domain Knowledge"}
+{"id": "popqa::5933490", "question": "Who is the author of The Impossible Dead?", "gold_aliases": ["Ian Rankin", "Jack Harvey (pseudonym)", "Jack Harvey"], "category": "Open-Domain Knowledge"}
