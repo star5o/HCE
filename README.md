@@ -1,9 +1,9 @@
-# The Alignment Paradox: Post-Training Alignment Monotonically Inflates High-Confidence Hallucinations
+# The Alignment Paradox: How Post-Training Amplifies Confident Hallucinations in Language Models
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Official code repository for ***"The Alignment Paradox: Post-Training Alignment Monotonically Inflates High-Confidence Hallucinations"***.
+Official code repository for ***"The Alignment Paradox: How Post-Training Amplifies Confident Hallucinations in Language Models"***.
 
 ---
 
