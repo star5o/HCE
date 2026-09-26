@@ -1,10 +1,9 @@
 # The Alignment Paradox: Post-Training Alignment Monotonically Inflates High-Confidence Hallucinations
 
-[![Anonymous Code Release](https://img.shields.io/badge/OpenReview-Anonymous-blue.svg)](https://anonymous.4open.science)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Official anonymous code repository for ***"The Alignment Paradox: Post-Training Alignment Monotonically Inflates High-Confidence Hallucinations"***.
+Official code repository for ***"The Alignment Paradox: Post-Training Alignment Monotonically Inflates High-Confidence Hallucinations"***.
 
 ---
 
@@ -160,8 +159,7 @@ Full instructions for downloading the 22,267 queries across PopQA and TriviaQA a
 
 ---
 
-## 🔒 Anonymity & License
-
-This repository is submitted for blind peer review at ICLR 2027. All author and institutional identifiers have been removed in accordance with double-blind review policies.
+## 📄 License
 
 This project is licensed under the MIT License.
+
