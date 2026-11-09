@@ -28,8 +28,8 @@ def parse_args():
     parser.add_argument("--model_name_or_path", type=str, required=True, help="Base/Reference model path")
     parser.add_argument("--output_dir", type=str, default="./runs/bdm_dpo_checkpoint")
     parser.add_argument("--beta", type=float, default=0.1, help="DPO regularization weight")
-    parser.add_argument("--m0", type=float, default=3.8, help="Baseline margin ceiling")
-    parser.add_argument("--gamma", type=float, default=1.0, help="Entropy scaling factor")
+    parser.add_argument("--m0", type=float, default=3.0, help="Baseline margin ceiling (value used for all reported results)")
+    parser.add_argument("--gamma", type=float, default=2.0, help="Entropy scaling factor (value used for all reported results)")
     parser.add_argument("--lr", type=float, default=5e-6)
     parser.add_argument("--batch_size", type=int, default=2)
     parser.add_argument("--epochs", type=int, default=1)
@@ -80,6 +80,7 @@ def main():
     optimizer = AdamW(policy_model.parameters(), lr=args.lr)
 
     print("\nBDM-DPO Module initialized successfully.")
+    print("The exact training script that produced all reported results is scripts/original/bdm_dpo_train.py.")
     print("To execute full multi-node training on UltraFeedback / HH-RLHF preference pairs,")
     print("refer to the instructions in scripts/reproduce_pipeline.sh.")
 

@@ -114,9 +114,11 @@ python scripts/run_defenses.py \
 Standard Direct Preference Optimization (DPO) drives the implicit reward margin toward infinity on unsupported completions because $\frac{\partial \mathcal{L}_{\text{DPO}}}{\partial \Delta r} < 0, \forall \Delta r$.
 
 BDM-DPO imposes an adaptive, entropy-dependent ceiling:
-$$\mathcal{L}_{\text{BDM}}(\theta) = -\mathbb{E}_{(x, y_w, y_l)} \left[ \ln \sigma \left( \min \left( \beta \Delta r_\theta(x, y_w, y_l), \; M_{\max}(\mathcal{H}_{\text{ref}}) \right) \right) \right]$$
+$$\mathcal{L}_{\text{BDM}}(\theta) = -\mathbb{E}_{(x, y_w, y_l)} \left[ \ln \sigma \left( \beta \min \left( \Delta r_\theta(x, y_w, y_l), \; M_{\max}(\bar{\mathcal{H}}_{\text{ref}}) \right) \right) \right]$$
 where:
-$$M_{\max}(\mathcal{H}_{\text{ref}}) = M_0 \exp\left( -\gamma \frac{\mathcal{H}(\pi_{\text{ref}}(\cdot \mid x))}{\ln |\mathcal{V}|} \right)$$
+$$M_{\max}(\bar{\mathcal{H}}_{\text{ref}}) = M_0 \exp\left( -\gamma \frac{\bar{\mathcal{H}}_{\text{ref}}(x)}{\ln |\mathcal{V}|} \right)$$
+
+where $\bar{\mathcal{H}}_{\text{ref}}(x)$ is the reference model's mean per-token entropy over the prompt tokens, and the bound applies to the raw margin $\Delta r_\theta$ before scaling by $\beta$. All reported results use $\beta = 0.1$, $M_0 = 3.0$, $\gamma = 2.0$ and a hard clamp (see [`CHANGELOG.md`](CHANGELOG.md)).
 
 - When the reference policy is confident ($\mathcal{H}_{\text{ref}} \approx 0$), $M_{\max} \approx M_0$, permitting full preference optimization.
 - Under epistemic uncertainty ($\mathcal{H}_{\text{ref}}$ high), $M_{\max}$ contracts to mathematically arrest margin escalation.
@@ -125,7 +127,7 @@ $$M_{\max}(\mathcal{H}_{\text{ref}}) = M_0 \exp\left( -\gamma \frac{\mathcal{H}(
 ```python
 from src.bdm.loss import BDMDPOConfig, BDMDPOloss
 
-config = BDMDPOConfig(beta=0.1, m0=3.8, gamma=1.0)
+config = BDMDPOConfig(beta=0.1, m0=3.0, gamma=2.0)
 bdm_loss = BDMDPOloss(config)
 
 loss, chosen_rewards, rejected_rewards, effective_margin = bdm_loss(
@@ -139,14 +141,16 @@ loss, chosen_rewards, rejected_rewards, effective_margin = bdm_loss(
 ```
 
 ### Policy Training Script
+The exact scripts that produced every reported training and evaluation result are in [`scripts/original/`](scripts/original/README.md). `scripts/train_bdm.py` below is a simplified entry point for the loss module.
+
 To launch BDM-DPO fine-tuning:
 ```bash
 python scripts/train_bdm.py \
     --model_name_or_path "mistralai/Mistral-7B-v0.3" \
     --output_dir "./runs/bdm_dpo_checkpoint" \
     --beta 0.1 \
-    --m0 3.8 \
-    --gamma 1.0 \
+    --m0 3.0 \
+    --gamma 2.0 \
     --use_lora \
     --device cuda
 ```

@@ -10,6 +10,8 @@ Formulation:
 
     BDM-DPO bounds the effective margin by reference epistemic entropy:
         M_max(H) = M_0 * exp( -gamma * (H(pi_ref) / ln|V|) )
+    where H(pi_ref) is the reference model's mean per-token entropy over the prompt tokens.
+    The bound applies to the raw margin Delta, before scaling by beta.
         Delta_bounded = min( Delta_{theta, ref}, M_max(H) )
         L_BDM_DPO = -E [ log sigma( beta * Delta_bounded ) ]
 
@@ -30,10 +32,12 @@ import torch.nn.functional as F
 @dataclass
 class BDMDPOConfig:
     """Configuration for Bounded Dynamic Margin (BDM) alignment."""
+    # Defaults match the configuration used for every reported result
+    # (beta=0.1, M0=3.0, gamma=2.0, hard clamp); see CHANGELOG.md.
     beta: float = 0.1
-    m0: float = 3.8
-    gamma: float = 1.0
-    smooth_clamp: bool = True
+    m0: float = 3.0
+    gamma: float = 2.0
+    smooth_clamp: bool = False
     clamp_temp: float = 5.0
     label_smoothing: float = 0.0
 
