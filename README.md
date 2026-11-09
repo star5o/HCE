@@ -118,7 +118,7 @@ $$\mathcal{L}_{\text{BDM}}(\theta) = -\mathbb{E}_{(x, y_w, y_l)} \left[ \ln \sig
 where:
 $$M_{\max}(\bar{\mathcal{H}}_{\text{ref}}) = M_0 \exp\left( -\gamma \frac{\bar{\mathcal{H}}_{\text{ref}}(x)}{\ln |\mathcal{V}|} \right)$$
 
-where $\bar{\mathcal{H}}_{\text{ref}}(x)$ is the reference model's mean per-token entropy over the prompt tokens, and the bound applies to the raw margin $\Delta r_\theta$ before scaling by $\beta$. All reported results use $\beta = 0.1$, $M_0 = 3.0$, $\gamma = 2.0$ and a hard clamp (see [`CHANGELOG.md`](CHANGELOG.md)).
+where $\bar{\mathcal{H}}_{\text{ref}}(x)$ is the reference model's mean per-token entropy over the prompt tokens, and the bound applies to the raw margin $\Delta r_\theta$ before scaling by $\beta$. All reported results use $\beta = 0.1$, $M_0 = 3.0$, $\gamma = 2.0$ and a hard clamp.
 
 - When the reference policy is confident ($\mathcal{H}_{\text{ref}} \approx 0$), $M_{\max} \approx M_0$, permitting full preference optimization.
 - Under epistemic uncertainty ($\mathcal{H}_{\text{ref}}$ high), $M_{\max}$ contracts to mathematically arrest margin escalation.

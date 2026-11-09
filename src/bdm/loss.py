@@ -33,7 +33,7 @@ import torch.nn.functional as F
 class BDMDPOConfig:
     """Configuration for Bounded Dynamic Margin (BDM) alignment."""
     # Defaults match the configuration used for every reported result
-    # (beta=0.1, M0=3.0, gamma=2.0, hard clamp); see CHANGELOG.md.
+    # (beta=0.1, M0=3.0, gamma=2.0, hard clamp).
     beta: float = 0.1
     m0: float = 3.0
     gamma: float = 2.0
